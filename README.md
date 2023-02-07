@@ -29,7 +29,7 @@ Once the JAR file is built, you can run it using
   <tr><th>Directory</th><th>Description</th></tr>
   <tr><td><code>frontend/</code></td><td>Client-side source directory</td></tr>
   <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<code>index.html</code></td><td>HTML template</td></tr>
-  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<code>index.ts</code></td><td>Frontend 
+  <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<code>index.tsx</code></td><td>Frontend 
 entrypoint, bootstraps a React application</td></tr>
   <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<code>routes.tsx</code></td><td>React Router routes definition</td></tr>
   <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;<code>MainLayout.tsx</code></td><td>Main 
