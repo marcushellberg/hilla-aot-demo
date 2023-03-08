@@ -2,6 +2,7 @@ package com.example.application.endpoints;
 
 import com.vaadin.flow.spring.security.AuthenticationContext;
 import dev.hilla.Endpoint;
+import dev.hilla.Nonnull;
 import jakarta.annotation.security.PermitAll;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Flux;
@@ -26,7 +27,7 @@ class ChatService {
 
 	private final Flux<Message> chat = chatSink.asFlux();
 
-	public Flux<Message> join() {
+	public Flux<@Nonnull Message> join() {
 		return chat;
 	}
 
