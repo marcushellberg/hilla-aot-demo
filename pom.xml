@@ -118,6 +118,9 @@
                         -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5292</jvmArguments>
                     <wait>500</wait>
                     <maxAttempts>240</maxAttempts>
+                    <image>
+                        <builder>dashaun/builder:tiny</builder>
+                    </image>
                 </configuration>
             </plugin>
             <plugin>
